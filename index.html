@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div>
+        <div id="heading"> <h1 >Customer Survey Form</h1></div>
+        <div  class="Text">
+        <div class="Form">
+            <div>
+                <div class="Input1">
+                    <div class="Input2">
+                        <label for="fname" style="margin-bottom: 10px;">First name:</label>
+                        <input type="text" id="fname" name="fname"style="width: 200px; height: 50px; padding-left: 5px;"><br><br>
+                    </div>
+                    <div class="Input2">
+                        <label for="lname" style="margin-bottom: 10px;">Email:</label>
+                        <input type="text" id="email" name="email" style="width: 200px; height: 50px; padding-left: 5px;"><br><br>
+                    </div>
+                </div>
+
+                <legend>Is this the first Time you are using our products & Products</legend>
+                <div class="Input" id="imp1" >
+                  
+                    <input type="radio" name="action1" value="yes" /><label for="yes">Yes</label><br />
+                    <input type="radio" name="action1" value="no"  /><label for="no">No</label><br />
+                </div>
+
+                <legend>Would you suggestion to your friend and collouges</legend>
+                <div class="Input" id="imp2">
+                   
+                    <input type="radio" name="action2" value="yes" /><label for="yes">Yes</label><br />
+                    <input type="radio" name="action2" value="no"  /><label for="no">No</label><br />
+                </div>
+
+                <legend>How to satisfied of our comapny and overall</legend>
+                <div class="Input" id="imp3">
+                    <input type="radio" name="action" id="satisfied" value="satisfied" /><label for="satisfied">satisfied</label><br />
+                    <input type="radio" name="action" id="Undecided" value="Undecided"  /><label for="Undecided">Undecided</label><br />
+                    <input type="radio" name="action" id="Unsatisfied" value="Unsatisfied"  /><label for="Unsatisfied">Unsatisfied</label><br />
+                </div>
+
+                <legend style="margin-bottom: 10px;">Have you any suggestion to our services</legend>
+                <textarea name="paragraph_text" style="width: 400px; height: 150px; border-radius: 5px; padding:5; user-select: none;" id="text" ></textarea><br /><br />
+                <button type="submit">Submit</button>
+                <button type="reset">Reset</button>
+            </div>
+            </div>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
